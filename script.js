@@ -1,0 +1,1 @@
+let c=+localStorage.getItem("visits")||0;c++;localStorage.setItem("visits",c);v.textContent=c;
